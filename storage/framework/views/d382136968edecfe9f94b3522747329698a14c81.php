@@ -1,0 +1,2 @@
+<?php $__env->startSection('title', 'ブログ｜HAIR SALON SHIGEMATSU'); ?>
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/fujimotokouki/laravel/HairSalonShigematsu/homepage/resources/views/home/blog.blade.php ENDPATH**/ ?>
