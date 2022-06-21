@@ -117,7 +117,7 @@
     </div>
     <div id="map" style="height:500px"> 
         <script src="{{ asset('/js/maps.js') }}"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyBXA_DD2O2z069Rzy5H-DACvu6CvX3sB1c&callback=initMap" async defer>
+        <script src="//maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyBXA_DD2O2z069Rzy5H-DACvu6CvX3sB1c&callback=initMap" async defer>
 	</script>
     </div>
 </section>
