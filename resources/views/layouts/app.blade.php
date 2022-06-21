@@ -23,7 +23,7 @@
             <ul　class="list-inline list-unstyled">
                 <li class ="list-inline-item"><a href="{{ route('home') }}">ホーム</a></li>
                 <!-- <li class ="list-inline-item"><a href="{{ route('blog') }}">ブログ</a></li> -->
-                <li class ="list-inline-item"><a href="/www.google.com/maps/place/HAIR+SALON+SHIGEMATSU/@33.844497,132.7818808,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x57ac6e82927295a!8m2!3d33.844497!4d132.7840695"><i class="bi bi-geo-alt-fill"></i></a></li>
+                <li class ="list-inline-item"><a href="https:/www.google.com/maps/place/HAIR+SALON+SHIGEMATSU/@33.844497,132.7818808,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x57ac6e82927295a!8m2!3d33.844497!4d132.7840695"><i class="bi bi-geo-alt-fill"></i></a></li>
             </ul>
         </div>
     </header>

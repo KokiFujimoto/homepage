@@ -156,19 +156,31 @@ section.infomation {
   /* padding-top: 10px; */
 }
 
+.confirm {
+    height: 570px;
+    margin: 80px;
+    color: #fff;
+    background-color: #1E2025;
+    /* display: flex; */
+    width: 1280px;
+}
+
 h3.send-complete {
     text-align: center;
     margin-top: 300px;
 }
 
+
+
 .form {
-  height: 600px;
+  /* height: 600px; */
   color: #fff;
   background-color: #1E2025;
   display: flex;
   width: 980px;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  margin: 80px auto;
 }
 
 input.name {
@@ -195,9 +207,76 @@ input.subject {color: #fff;border: none;outline: none;box-sizing: border-box;bac
 
 textarea.body {color: #fff;border: none;outline: none;box-sizing: border-box;background-color: #1E2025;border-bottom: 1px solid;width: 346px;margin-top: 20px;}
 
+.form-group-confirm {
+  height: 600px;
+  color: #fff;
+  background-color: #1E2025;
+  max-width: initial;
+  width: fit-content;
+  padding: 5px 100px;
+  margin: 70px auto;
+}
+
+
+input.name-confirm {
+  color: #fff;
+  border: none;
+  outline: none;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: #1E2025;
+  border-bottom: 1px solid;
+  width: inherit;
+}
+
+input.email-confirm {
+  color: #fff;
+  border: none;
+  outline: none;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: #1E2025;
+  border-bottom: 1px solid;
+  width: inherit;
+}
+
+input.subject-confirm {color: #fff;border: none;outline: none;box-sizing: border-box;background-color: #1E2025;border-bottom: 1px solid;width: inherit;height: 50px;}
+
+textarea.body-confirm {color: #fff;border: none;outline: none;box-sizing: border-box;background-color: #1E2025;border-bottom: 1px solid;width: inherit;margin-top: 20px;}
+
+
+.form-input {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
 button.send {
   border: none;
   background-color: #fff;
+}
+
+button.send-confirm {
+  border: none;
+  width: -webkit-fill-available;
+  background-color: #fff;
+}
+
+.thanks {
+  height: 600px;
+  color: #fff;
+  background-color: #1E2025;
+  display: flex;
+  width: 980px;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  margin: 80px auto;
+  text-align: center;
+}
+
+h3.thanks-text {
+  margin: auto;
+  text-align: center;
 }
 
 .explanation {
@@ -219,7 +298,7 @@ p.address {
 
 form {
   padding-bottom: 50px;
-  margin: auto;
+  /* margin: auto; */
   margin-top: 50px;
 }
 
@@ -264,7 +343,7 @@ footer {
   color: #fff;
   background-color: #1E2025;
   display: flex;
-  width: 1280px;
+  width:;
   margin-right: auto;
   margin-left: auto;
   margin-top: 70px;
@@ -2695,6 +2774,14 @@ progress {
 
 textarea.form-control {
   min-height: calc(1.6em + 0.75rem + 2px);
+  color: #fff;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  background-color: #1E2025;
+  border-bottom: 1px solid;
+  width: 346px;
+  margin-top: 20px;
 }
 textarea.form-control-sm {
   min-height: calc(1.6em + 0.5rem + 2px);
