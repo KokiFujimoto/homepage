@@ -240,9 +240,11 @@ img.one-scissor {width: 1280px;}
 
 div#map {
     width: 1280px;
-    margin-right: auto;
-    margin-left: auto;
-    filter: grayscale(100%) invert(92%) contrast(83%);
+    filter: grayscale(50%) invert(100%) contrast(90%);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #1E2025;
 }
 
 p.copy-rights {
@@ -255,7 +257,6 @@ footer {
     color: #fff;
     text-align: center;
     padding-top: 30px;
-    margin-top: 550px;
 }
 
 .form-group {
