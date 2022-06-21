@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'ホーム｜HAIR SALON SHIGEMATSU')
+@section('title', 'ホーム｜HAIR SALON ◯◯◯◯')
 
 @section('content')
 

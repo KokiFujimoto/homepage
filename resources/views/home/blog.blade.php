@@ -1,3 +1,3 @@
 @extends('layouts.app')
 
-@section('title', 'ブログ｜HAIR SALON SHIGEMATSU')
+@section('title', 'ブログ｜HAIR SALON ◯◯◯◯')

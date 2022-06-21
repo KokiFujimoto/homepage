@@ -156,6 +156,11 @@ section.infomation {
   /* padding-top: 10px; */
 }
 
+h3.send-complete {
+    text-align: center;
+    margin-top: 300px;
+}
+
 .form {
   height: 600px;
   color: #fff;
@@ -215,6 +220,7 @@ p.address {
 form {
   padding-bottom: 50px;
   margin: auto;
+  margin-top: 50px;
 }
 
 form.form-control {
@@ -249,6 +255,7 @@ footer {
     color: #fff;
     text-align: center;
     padding-top: 30px;
+    margin-top: 550px;
 }
 
 .form-group {

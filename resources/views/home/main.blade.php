@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'ホーム｜HAIR SALON SHIGEMATSU')
+@section('title', 'ホーム｜HAIR SALON ◯◯◯◯')
 
 @section('content')
 
 <section class="title">
     <div class="logo">
         <h1 class="logo-font">HAIR SALON</h1>
-        <h1 class="logo-font">SHIGEMATSU</h1>
+        <h1 class="logo-font">◯◯◯◯</h1>
     </div>
     <div class="time-char">
         <p><u>open 9:00</u></p>
@@ -94,9 +94,9 @@
     <div class="form-group-1">
         <div class="explanation">
             <h1 class="inquiry-color">お問い合わせemail</h1>
-            <p class="shigematsu">HAIR SALON SHIGEMATSU</p>
+            <p class="shigematsu">HAIR SALON ◯◯◯◯</p>
             <p class="shigematsu">お問い合わせフォームよりご連絡ください</p>
-            <p class="address">愛媛県松山市岩崎町２－３－４４</p>
+            <p class="address">愛媛県松山市岩崎町◯◯◯◯</p>
             <p class="our-email">test@example.com</p>
         </div>
         <div class="form">

@@ -19,7 +19,7 @@
 </head>
 <body>
     <header class="d-flex">
-        <h3 class="text-white">HAIR SALON SHIGEMATSU</h3>
+        <h3 class="text-white">HAIR SALON ◯◯◯◯</h3>
         <div class="nav-items">
             <ul　class="list-inline list-unstyled">
                 <li class ="list-inline-item"><a href="{{ route('home') }}">ホーム</a></li>
@@ -32,8 +32,8 @@
     @yield('content')
 
     <footer>
-        <p>089-932-3682</p>
-        <p class="copy-rights">©2021 by HAIR SALON SHIGEMATSU</p>
+        <p>089-932-◯◯◯◯</p>
+        <p class="copy-rights">©2021 by HAIR SALON ◯◯◯◯</p>
     </footer>
 </body>
 </html>
