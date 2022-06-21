@@ -21,5 +21,4 @@ Route::get('/', function () {
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'home'])->name('home');
 Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name('blog');
 Route::get('/thanks', [App\Http\Controllers\HomeController::class, 'thanks'])->name('thanks');
-Route::post('/home/confirm', [App\Http\Controllers\ContactController::class, 'confirm'])->name('confirm');
 Route::post('/home/send', [App\Http\Controllers\ContactController::class, 'send'])->name('send');

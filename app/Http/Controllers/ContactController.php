@@ -1,51 +1,24 @@
 <?php
-
 namespace App\Http\Controllers;
 
-use App\Mail\ContactSendmail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;//追記
+use App\Mail\ContactMail; //追記。後に作るMailable。後述。
 
 class ContactController extends Controller
 {
-    /**
-     * 確認
-     */
-    public function confirm(Request $request)
-    {
-        $request->validate([
-            'name' => 'required',
-            'email' => 'required|email',
-            'title' => 'required',
-            'body' => 'required'
-        ]);
-
-        $inputs = $request->all();
-
-
-        return view('contact.confirm', compact('inputs'));
-    }
-
-    /**
-     * 送信
-     */
+    //メール送信
     public function send(Request $request)
     {
-        $request->validate([
-            'name' => 'required',
-            'email' => 'required|email',
-            'title' => 'required',
-            'body' => 'required'
+        $request->validate([ //バリデーション
+            'name'     => 'required',
+            'email'    => 'required|email',
+            'title'    => 'required',
+            'body'     => 'required',
         ]);
-
-        $inputs = $request->all();
-
-        //入力されたメールアドレスにメールを送信
-        \Mail::to($inputs['email'])->send(new ContactSendmail($inputs));
-
-        //再送信を防ぐためにトークンを再発行
-        $request->session()->regenerateToken();
-
-        //送信完了ページのviewを表示
+        $input = $request->all();
+        unset($input['_token']); //CSRF非表示フィールド_token削除
+        Mail::to('test@example.com')->send(new ContactMail('contact.mail', 'お問い合わせを受信しました', $input));
         return view('contact.thanks');
     }
 }

@@ -100,7 +100,7 @@
             <p class="our-email">test@example.com</p>
         </div>
         <div class="form">
-            <form action="{{ route('confirm') }}" method="post">
+            <form action="{{ route('send') }}" method="post">
                 @csrf
                 <div class="form-input">
                     <input class="name" type="text" name="name" placeholder="名前">
