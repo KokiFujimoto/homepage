@@ -115,11 +115,10 @@
     <div class="scissors">
         <img class="one-scissor" src="one-scissor.png" alt="横向きのハサミ">
     </div>
-    <div id="map" style="height:500px"> 
+    <div id="map" style="height:500px"></div>
         <script src="{{ asset('/js/maps.js') }}"></script>
         <script src="//maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyBXA_DD2O2z069Rzy5H-DACvu6CvX3sB1c&callback=initMap" async defer>
 	</script>
-    </div>
 </section>
 
 @endsection

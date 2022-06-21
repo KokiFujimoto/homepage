@@ -19,7 +19,7 @@ function initMap() {
 	// ピンを差すマップを決めます。
         map: mapObj,
 	// ホバーしたときに「tokyotower」と表示されるようにします。
-        title: 'HAIR SALON ◯◯◯◯',
+        title: 'HAIRSALON◯◯◯◯',
     });
 
 }
